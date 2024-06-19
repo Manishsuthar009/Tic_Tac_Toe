@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #081b29;
+}
+nav{
+  background-color: black;
+  color: white;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding: 0 15px;
+}
+
+.gameContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  font-family: 'Roboto', sans-serif;
+}
+
+.box{
+  border: 2px solid #fff;
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover{
+  background-color: rgba(211, 201, 201, 0.756);
+}
+
+.gameInfo{
+  padding: 0 35px;
+}
+
+.bl-0{
+  border-left: 0;
+}
+
+.br-0{
+  border-right: 0;
+}
+
+.bt-0{
+  border-top: 0;
+}
+
+.bb-0{
+  border-bottom: 0;
+}
+
+.gameInfo h1{
+  font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.info{
+  font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+  padding: 0 0 0 30px;
+}
+
+.Reset{
+font-size: 20px;
+font-weight: 500;
+padding: 5px 25px;
+background-color: #0ef;
+border-radius: 20px;
+cursor: pointer;
+margin: 20px;
+border: none;
+}
+
+.Reset:hover{
+box-shadow: 0 0 5px #0ef ,0 0 25px #0ef,0 0 50px #0ef,0 0 100px #0ef,0 0 200px #0ef;
+}
